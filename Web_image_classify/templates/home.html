@@ -10,13 +10,25 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <link rel="stylesheet" href="{{url_for('static', filename='style.css')}}">
     <title>Image Classification Webapp</title>
+
 </head>
 
 <body>
     <div class="container">
-        <img src="{{'static/image/UPLOAD_FOLDER/image.jpg'}}" />
         <h1>Image Classification Webapp</h1>
-  
+
+        <div class="container">
+            <span style="background-color: blue;padding: 5px;color: white;border-radius: 5px;">Airplane</span>
+            <span style="background-color: green;padding: 5px;color: white;border-radius: 5px;">Automobile</span>
+            <span style="background-color: orangered;padding: 5px;color: white;border-radius: 5px;">Bird</span>
+            <span style="background-color: darkolivegreen;padding: 5px;color: white;border-radius: 5px;">Cat</span>
+            <span style="background-color: darkmagenta;padding: 5px;color: white;border-radius: 5px;">Deer</span>
+            <span style="background-color: rgb(0, 73, 107);padding: 5px;color: white;border-radius: 5px;">Dog</span>
+            <span style="background-color: grey;padding: 5px;color: white;border-radius: 5px;">Frog</span>
+            <span style="background-color: darkturquoise;padding: 5px;color: white;border-radius: 5px;">Horse</span>
+            <span style="background-color: darkviolet;padding: 5px;color: white;border-radius: 5px;">Ship</span>
+            <span style="background-color: rgb(53, 88, 0);padding: 5px;color: white;border-radius: 5px;">Truck</span>
+        </div>
         <h2>CIFAR-10</h2>
         <div class="row">
             <h4>File Upload & Image Preview</h4>
